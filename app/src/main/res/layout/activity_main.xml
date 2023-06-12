@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <inc.fabudi.colorselector.ColorSelector
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:clipToPadding="false"
+        android:padding="16dp"
+        app:color_0="#00BCD4"
+        app:color_1="#FF0404"
+        app:color_2="#2958FF"
+        app:color_3="#D000FF"
+        app:color_4="#CDDC39"
+        app:color_5="#2196F3"
+        app:color_6="#F44336"
+        app:color_7="#009688"
+        app:color_8="#9C27B0"
+        app:color_9="#673AB7"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
